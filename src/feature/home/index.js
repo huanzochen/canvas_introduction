@@ -11,6 +11,7 @@ const Home = () => {
       </div>
       <div className={styles.staticSection}>
         <a href="/beginner">beginner</a>
+        <a href="/animations">animations</a>
       </div>
     </div>
   )

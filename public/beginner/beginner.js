@@ -78,7 +78,7 @@ const Circle = () => {
   let y = Math.random() * window.innerHeight
   c.beginPath()
   c.arc(x, y, 30, 0, Math.PI * 2, false)
-  c.strokeStyle = 'blue'
+  // c.strokeStyle = 'blue'
   c.stroke()
   // }
 }
