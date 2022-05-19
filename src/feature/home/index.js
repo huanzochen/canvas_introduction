@@ -12,6 +12,7 @@ const Home = () => {
       <div className={styles.staticSection}>
         <a href="/beginner">beginner</a>
         <a href="/animations">animations</a>
+        <a href="/animations_2">animations_2</a>
       </div>
     </div>
   )
