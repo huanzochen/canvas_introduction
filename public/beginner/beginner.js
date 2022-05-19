@@ -17,21 +17,27 @@ console.log(canvas)
 // c.fillRect(400, 100, 100, 100)
 // c.fillRect(300, 300, 100, 100)
 
-for (let i = 0; i < 10; i++) {
-  const redColor = Math.random() * 255
-  const greenColor = Math.random() * 255
-  const blueColor = Math.random() * 255
+const Square = () => {
+  // for (let i = 0; i < 10; i++) {
 
-  const xStart = Math.random() * window.innerHeight
-  const yStart = Math.random() * window.innerWidth
+  // const redColor = Math.random() * 255
+  // const greenColor = Math.random() * 255
+  // const blueColor = Math.random() * 255
+
+  const xStart = Math.random() * window.innerWidth
+  const yStart = Math.random() * window.innerHeight
+
+  console.log('xStart:', xStart)
 
   const width = 100
   const height = 100
 
   c.beginPath()
-  c.fillStyle = `rgba(${redColor},${greenColor},${blueColor})`
+  // c.fillStyle = `rgba(${redColor},${greenColor},${blueColor})`
   c.fillRect(xStart, yStart, width, height)
+  // }
 }
+Square()
 
 // Line
 // c.beginPath()
@@ -41,7 +47,8 @@ for (let i = 0; i < 10; i++) {
 // c.strokeStyle = '#fa34a3'
 // c.stroke()
 
-for (let i = 0; i < 10; i++) {
+const Line = () => {
+  // for (let i = 0; i < 10; i++) {
   let xStart = Math.random() * window.innerWidth
   let yStart = Math.random() * window.innerWidth
 
@@ -51,9 +58,11 @@ for (let i = 0; i < 10; i++) {
   c.beginPath()
   c.moveTo(xStart, yStart)
   c.lineTo(xGoal, yGoal)
-  c.strokeStyle = '#fa34a3'
+  // c.strokeStyle = '#fa34a3'
   c.stroke()
+  // }
 }
+Line()
 
 // Arc / Circle
 // c.beginPath()
@@ -61,8 +70,9 @@ for (let i = 0; i < 10; i++) {
 // c.strokeStyle = 'blue'
 // c.stroke()
 
-for (let i = 0; i < 30; i++) {
-  console.log('Math.random():', Math.random(), 'window.innerWidth:', window.innerWidth)
+const Circle = () => {
+  // for (let i = 0; i < 30; i++) {
+  // console.log('Math.random():', Math.random(), 'window.innerWidth:', window.innerWidth)
 
   let x = Math.random() * window.innerWidth
   let y = Math.random() * window.innerHeight
@@ -70,4 +80,6 @@ for (let i = 0; i < 30; i++) {
   c.arc(x, y, 30, 0, Math.PI * 2, false)
   c.strokeStyle = 'blue'
   c.stroke()
+  // }
 }
+Circle()
