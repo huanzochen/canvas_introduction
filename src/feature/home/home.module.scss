@@ -17,6 +17,15 @@
   height: 10vh;
   background: $light-pink;
   margin-top: 5%;
+  border-radius: 5px;
+}
 
+.staticSection {
+  display: flex;
+
+  width: 80%;
+  height: 10vh;
+  background: $brown-pink;
+  margin-top: 5%;
   border-radius: 5px;
 }

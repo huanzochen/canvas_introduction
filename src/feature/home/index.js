@@ -9,6 +9,9 @@ const Home = () => {
         <Link to="/">Home</Link>
         <Link to="/canvas-in-react">canvas-in-react</Link>
       </div>
+      <div className={styles.staticSection}>
+        <Link to="/beginner">beginner</Link>
+      </div>
     </div>
   )
 }
