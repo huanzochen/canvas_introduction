@@ -13,6 +13,7 @@ const Home = () => {
         <a href="/beginner">beginner</a>
         <a href="/animations">animations</a>
         <a href="/animations_2">animations_2</a>
+        <a href="/particles">particles</a>
       </div>
     </div>
   )
