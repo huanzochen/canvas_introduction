@@ -8,6 +8,7 @@ const Home = () => {
       <div className={styles.reactSection}>
         <Link to="/">Home</Link>
         <Link to="/canvas-in-react">canvas-in-react</Link>
+        <Link to="/canvas-in-react-hook">canvas-in-react-hook</Link>
       </div>
       <div className={styles.staticSection}>
         <a href="/beginner">beginner</a>
